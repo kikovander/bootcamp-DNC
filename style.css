@@ -233,6 +233,7 @@ nav{
                 color: white;
                 text-align: center;
                 width: 20%;
+                font-family: var(--font-padrao);
             }
 
         footer .linha2 {
@@ -317,6 +318,17 @@ nav{
 
     .checkboxItens label {
         font-size: 18px;
+    }
+
+    /*Footer*/
+
+    footer .linha1 {
+        flex-direction: column;
+    }
+
+    footer .endereco {
+        width: 90%;
+        margin-bottom: 20px;
     }
 }
 
